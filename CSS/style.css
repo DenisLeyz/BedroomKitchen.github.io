@@ -17,7 +17,7 @@ justify-content: center;}
 
 .heroSection {
     width: 100%;
-    background-image: url(/images/heroImage.jpg);
+    background-image: url(images/heroImage.jpg);
     background-size: 100%;
     background-repeat: repeat-y;
 
