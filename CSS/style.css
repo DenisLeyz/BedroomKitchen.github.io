@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header {height: 100px}
+
+#logoImage {
+    width: 200px;
+    margin-top: 1rem ;
+}
+
+div#brandLogo 
+{display: flex;
+justify-content: center;}
+
+.heroSection {
+    width: 100%;
+    background-image: url(/images/heroImage.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+
+    filter: saturate(.3);
+    /* height: 800px; */
+}
+
+.hero {background-color: black;}
+
+.slogan {
+    display: flex;
+justify-content: center;
+grid-area: slogan;}
+
+.sloganH1 {margin-top: 90px;
+color:white;
+width: 50%;
+text-align: center;}
+
+.grid-container {display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 200px 400px;
+grid-template-areas: 
+"slogan slogan slogan"
+"button1 button2 button3"
+;}
+
+.button1 {grid-area: button1;
+    display: flex;
+    flex-direction: column;}
+
+.button2 {grid-area: button2;
+    display: flex;
+    flex-direction: column;}
+
+.button3 {grid-area: button3;
+    display: flex;
+    flex-direction: column;}
+
+.buttonHeading {color: white;
+text-align: center;
+padding: 32px 0;}
+
+.buttonBody {color: white;
+text-align: center;height: 100px;
+padding: 48px 24%;}
+
+a{
+    text-align: center;
+text-decoration: underline;
+font-size: 20px;
+
+margin: 0 auto;
+width: 50%;}
+
+.buttonButton {border: 2px solid rgb(255, 166, 0);color: white;
+    margin: 0 auto;
+    height: 40px;
+border-radius: 5px;
+cursor: pointer;}
+
+.copyright {background-color: rgb(0, 0, 0);
+color: white;
+text-align: center;padding:20px 0 }
+
+
+.gettingStarted {
+color: white;
+width: 80%;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+padding-top: 40px;
+}
+
+.startedNavigation {display: flex;justify-content: space-between; margin: 10px 10px 40px;}
+
+.startedImages {display: flex;flex-direction: row;justify-content: space-between;}
+
+.startedHeading {padding: 10px 0;}
+.startedBody {padding: 20px 20% 20px  0;background-color: rgb(22, 20, 20)}
+
+.startedSubheading {padding:10px 0 ;background-color: rgb(22, 20, 20)}
+
+.startedList {font-size: 20px;background-color: rgb(22, 20, 20);list-style: none;}
+
+.startedList1 {font-size: 20px;background-color: rgb(22, 20, 20);}
+
+.startedConclusion {padding: 10px 0;background-color: rgb(22, 20, 20)}
+
+#conclusion {color: orange;}
+
+.tipsHeading {text-align: center;}
+
+.relatedList {font-size: 20px;background-color: rgb(22, 20, 20);margin-left: 30px;}
