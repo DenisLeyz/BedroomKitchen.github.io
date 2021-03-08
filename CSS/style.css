@@ -38,54 +38,35 @@ width: 50%;
 text-align: center;}
 
 .grid-container {display: grid;
-grid-template-rows: 200px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 400px;
 grid-template-areas: 
-"slogan"
-"button1"
-"button2"
-"button3"
+"slogan slogan slogan"
+"button1 button2 button3"
 ;}
 
 .button1 {grid-area: button1;
     display: flex;
     flex-direction: column;
-background-color: green;
-padding: 20px 0;
-min-width: 50%;
-justify-content: center;
-margin: 0 auto;
-border-radius: 100px;
-margin-bottom: 10px;}
+}
 
 .button2 {grid-area: button2;
     display: flex;
     flex-direction: column;
-background-color: purple;
-padding: 20px 0;
-min-width: 50%;
-justify-content: center;
-margin: 0 auto;
-border-radius: 100px;
-margin-bottom: 10px;}
+}
 
 .button3 {grid-area: button3;
     display: flex;
     flex-direction: column;
-background-color: red;
-padding: 20px 0;
-min-width: 50%;
-justify-content: center;
-margin: 0 auto;
-border-radius: 100px;
-margin-bottom: 10px;}
+}
 
 .buttonHeading {color: white;
 text-align: center;
-padding: 24px 0;}
+padding: 32px 0;}
 
 .buttonBody {color: white;
 text-align: center;height: 100px;
-padding: 20px 15%;}
+padding: 48px 24%;}
 
 a{
     text-align: center;
@@ -117,32 +98,28 @@ padding-top: 40px;
 
 .startedNavigation {display: flex;justify-content: space-between; margin: 10px 10px 40px;}
 
-.startedImages {display: flex;flex-direction: column;justify-content: space-between;}
+.startedImages {display: flex;flex-direction: row;justify-content: space-between;}
 
-.startedImage2 {margin: 0 auto;}
 
-.startedImage3 {text-align: right;}
 
 
 
 .startedHeading {padding: 10px 0;}
 
-#gettingStarted {text-align: center;}
 
 
 .startedBody {padding: 20px 20% 20px  0;background-color: rgb(22, 20, 20)}
 
-.background {background-color: rgb(22, 20, 20);}
 
 .startedSubheading {padding:10px 0 ;background-color: rgb(22, 20, 20)}
 
-.startedList {font-size: 20px;background-color: rgb(22, 20, 20);list-style: none;margin-left: 25px;}
+.startedList {font-size: 20px;background-color: rgb(22, 20, 20);list-style: none;}
 
-.startedList1 {font-size: 20px;background-color: rgb(22, 20, 20); margin-left: 25px;}
+.startedList1 {font-size: 20px;background-color: rgb(22, 20, 20); }
 
 .startedConclusion {padding: 10px 0;background-color: rgb(22, 20, 20)}
 
-#conclusion {color: rgb(170, 255, 0);text-align: center;font-size: 30px;display: flex;justify-content: center;width: 100%;}
+#conclusion {color: orange}
 
 .tipsHeading {text-align: center;}
 
@@ -154,7 +131,3 @@ padding-top: 40px;
     margin: 20px 0 40px;
 }
 
-.tipsSubheading {background-color: rgb(22, 20,20);
-padding-left: 40px;}
-
-.tipLink {color: orangered;font-size: 28px;}
